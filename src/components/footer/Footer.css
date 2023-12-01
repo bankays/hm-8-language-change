@@ -1,0 +1,12 @@
+.footer {
+  height: 60px;
+  /* background-color: red; */
+}
+.link {
+  display: flex;
+  justify-content: space-between;
+}
+.links {
+  display: flex;
+  gap: 20px;
+}

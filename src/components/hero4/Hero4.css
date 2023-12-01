@@ -1,0 +1,77 @@
+.hero4 {
+  height: 600px;
+  /* background-color: cadetblue; */
+}
+.all4 {
+  display: flex;
+  height: 500px;
+}
+.left4 {
+  margin: 150px 0px 0px 30px;
+}
+.hero4-p1 {
+  color: #00194a;
+  font-family: Roboto;
+  font-size: 35px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 50px;
+  width: 466px;
+  height: 100px;
+  flex-shrink: 0;
+}
+.hero4-p2 {
+  width: 466px;
+  height: 168px;
+  flex-shrink: 0;
+  color: #00194a;
+  font-family: Roboto;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: 28px;
+  opacity: 0.8;
+  padding-top: 30px;
+}
+.right4 {
+  width: 700px;
+  margin: 50px 0px 0px 60px;
+
+  flex-wrap: wrap;
+}
+.cards {
+  width: 260px;
+  height: 200px;
+}
+.hero4-img1 {
+  padding: 24px 0px 0px 30px;
+}
+.hero4-p3 {
+  color: #00194a;
+  font-family: Roboto;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  padding: 10px 0px 0px 30px;
+}
+.hero4-p4 {
+  color: #00194a;
+  font-family: Roboto;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: 20px;
+  opacity: 0.8;
+  width: 220px;
+  height: 69px;
+  flex-shrink: 0;
+  padding: 10px 0px 0px 30px;
+}
+.card-3 {
+  position: absolute;
+  margin: -330px 0px 0px 320px;
+}
+.card-2 {
+  margin: 50px 0px 0px 0px;
+}

@@ -1,0 +1,112 @@
+* {
+  margin: 0;
+  padding: 0;
+  scroll-behavior: smooth;
+  box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
+}
+a,
+button,
+input,
+select,
+textarea {
+  outline: none;
+}
+
+button {
+  border: none;
+  cursor: pointer;
+}
+
+.container {
+  max-width: 1240px;
+  margin: 0 auto;
+  padding: 0 20px;
+  /* background-color: blue; */
+}
+
+header {
+  padding: 19px 0;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 99;
+  background-color: #fff;
+
+  /* background-color: #ff7979; */
+}
+
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.nav-items {
+  display: flex;
+
+  align-items: center;
+
+  /* gap: 44px; */
+}
+
+.nav-links {
+  display: flex;
+  margin: 0px 0px 0px -800px;
+  position: absolute;
+  gap: 40px;
+}
+
+.nav-link {
+  color: #333;
+  font-size: 16px;
+  line-height: 28px;
+  transition: all 0.3s linear;
+}
+.headerbtn {
+  padding: 0px 0px 0px 0px;
+}
+
+.nav-link:hover,
+.nav-link:active {
+  color: #000;
+}
+
+.btn2 {
+  border-radius: 23px;
+  background: #ff0043;
+  box-shadow: 0px 5px 50px 0px rgba(255, 0, 67, 0.1);
+  width: 94px;
+  height: 46px;
+  flex-shrink: 0;
+}
+
+.Product {
+  margin: 10px 0px 0px -900px;
+  color: #ff0043;
+  font-family: Roboto;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+.logo {
+  width: 50px;
+}
+.logo3 {
+  margin: 0px 0px 0px 20px;
+}
+button:hover {
+  background: #4f88de;
+  transition: 0.4s;
+}
+.nav-link:hover {
+  border-radius: 5px;
+  background: #a3c1ef;
+
+  transition: 0.4s;
+}
